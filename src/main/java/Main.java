@@ -21,7 +21,7 @@ public class Main extends HttpServlet {
 			throws ServletException, IOException {
 
 		TwiMLResponse twiml = new TwiMLResponse();
-		Message message = new Message("Hello, Jaimie");
+		Message message = new Message("Hello, Jamies");
 		try {
 			twiml.append(message);
 		} catch (TwiMLException e) {
